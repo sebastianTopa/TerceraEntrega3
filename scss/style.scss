@@ -1,0 +1,13 @@
+// archivos secundarios
+
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "contenedores/header";
+@import "contenedores/main";
+@import "contenedores/footer";
+@import "contenedores/mq";
+
+body{
+    background-color: $color-botones;
+}

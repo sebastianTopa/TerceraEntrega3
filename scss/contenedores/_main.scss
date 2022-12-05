@@ -1,0 +1,122 @@
+/* estilos del main */
+
+.main-index{
+    text-align: center;
+}
+main{
+    h1{
+    text-align: center;
+    margin: 10px;
+    color: rgb(196, 174, 218);
+    font-size: 50px;
+}
+section{
+    img{
+        padding: 5px;
+        width: 50%;
+    }
+}
+p{
+    text-align: start;
+    font-size: 20px;
+    color: $color-texto;
+}
+.img-camp{
+    padding: 10px;
+    width: 300px;
+}
+
+.img-fogata{
+    padding: 0;
+    width: 200px;
+}
+}
+
+/* estilos del main de actividades */
+
+.h1-actividades{
+    color: $color-usado1;
+}
+.campamento-nenes{
+    width: 25%;
+}
+
+main{
+    ul{
+        li{
+            color: $color-texto;
+        }
+    }
+}
+
+/* estilos del main de contactos */
+
+main{
+    form{
+        background-color: cadetblue;
+    }
+}
+
+.h1contacto{
+    text-align: start;
+    margin-top: 2px;
+}
+
+.pcontacto{
+    text-align: start;
+    color: darkcyan;
+    display: inline;
+}
+
+/* estilos main de nosotros */
+
+.contenedorgrid{
+    display: grid;
+    grid-template-columns: 50% auto; 
+}
+
+.h1sobrenosotros{
+    font-size: 50px
+}
+
+@include estilosbox;
+@include estilosbox2;
+@include estilosbox3;
+@include estilosbox4;
+
+/* main nuestra historia */
+
+    .contenedorGrid1{
+        display: grid;
+        grid-template-areas: "h1 h1"
+                             "img p"
+                             "p2 img2"
+                             "footer footer"
+    }
+
+    .cabaña{
+        width: 70%;
+        grid-area: img;
+    }
+    
+    .h1nuestrahistoria{
+    background-color: tomato;
+    color: black;
+    border-radius: 100px;
+    grid-area: h1;
+    }
+    
+    .p1{
+        @extend %estilosgrid;
+        grid-area: p;
+    }
+    
+    .p2{
+        @extend %estilosgrid;
+        grid-area: p2;
+    }
+    
+    .campamentoviejo{
+        width: 70%;
+        grid-area: img2;
+    }

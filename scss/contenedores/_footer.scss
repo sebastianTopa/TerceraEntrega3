@@ -1,0 +1,20 @@
+/* estilos del footer */
+
+footer{
+    text-align: center;
+    background-color: $color-usado1;
+    h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin: 10px;
+            img{
+                display: block;
+            }
+        }
+    }
+}

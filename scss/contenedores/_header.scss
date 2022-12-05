@@ -1,0 +1,29 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* estilos de header */
+header{
+    padding: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-botones;
+    img{
+        width: 200px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                background-color: #FAD8CE;
+                display: inline-block;
+                padding: 10px;
+                border-radius: 300px;  
+            }
+        }
+    }
+}

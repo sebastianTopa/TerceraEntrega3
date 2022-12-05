@@ -1,0 +1,39 @@
+// mixin sin parametros
+
+@mixin estilosbox {
+    .boxmodeling{
+    background-color: $color-fondos;
+    width: 300px;
+    border: 15px solid $color-bordes2;
+    padding: 50px;
+    margin: 20px;
+    }
+}
+
+@mixin estilosbox2 {
+        .boxmodeling2 {
+        background-color: $color-fondos2;
+        width: 300px;
+        border: 15px solid $color-bordes;
+        padding: 30px;
+        margin: 10px; }
+}
+
+@mixin estilosbox3 {
+    .boxmodeling3{
+    background-color: $color-fondos;
+    width: 300px;
+    border: 15px solid $color-bordes2;
+    padding: 50px;
+    margin: 20px;
+    }
+}
+
+@mixin estilosbox4 {
+    .boxmodeling4 {
+    background-color: $color-fondos2;
+    width: 300px;
+    border: 15px solid $color-bordes;
+    padding: 30px;
+    margin: 10px; }
+}
